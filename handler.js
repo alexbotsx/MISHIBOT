@@ -350,7 +350,7 @@ export async function handler(chatUpdate) {
                     if (m.text && user.banned && !isROwner) {
                         if (user.antispam > 2) return
                         m.reply(`*🚫 Está baneado(a), no puede usar los comandos de este bot!*\n\n${user.bannedReason ? `\n💌 *Motivo:* 
-${user.bannedReason}` : '💌 *Motivo:* Sin Especificar'}\n\n⚠️ *Si cree que es un error contacte con mi creador:*\n- wa.me/56983073328`)
+${user.bannedReason}` : '💌 *Motivo:* Sin Especificar'}\n\n⚠️ *Si cree que es un error contacte con mi creador:*\n- wa.me/56941827124`)
                         user.antispam++
                         return
                     }
@@ -541,7 +541,7 @@ ${user.bannedReason}` : '💌 *Motivo:* Sin Especificar'}\n\n⚠️ *Si cree que
 
 global.dfail = (type, m, conn) => {
 
-    let user2 = m.pushName || 'MvrcoSexo'
+    let user2 = m.pushName || 'BokcitoGeri'
     const msg = {
         rowner: '☁ 𝖤𝗌𝗍𝖺 𝖿𝗎𝗇𝖼𝗂𝗈́𝗇 𝗌𝗈𝗅𝗈 𝗉𝗎𝖾𝖽𝖾 𝗌𝖾𝗋 𝗎𝗍𝗂𝗅𝗂𝗓𝖺𝖽𝖺 𝗉𝗈𝗋 𝖾𝗅 𝖼𝗋𝖾𝖺𝖽𝗈𝗋 𝖽𝖾𝗅 𝖻𝗈𝗍',
         owner: '☁ 𝖤𝗌𝗍𝖺 𝖿𝗎𝗇𝖼𝗂𝗈́𝗇 𝗌𝗈𝗅𝗈 𝗉𝗎𝖾𝖽𝖾 𝗌𝖾𝗋 𝗎𝗍𝗂𝗅𝗂𝗓𝖺𝖽𝖺 𝗉𝗈𝗋 𝖾𝗅 𝗉𝗋𝗈𝗉𝗂𝖾𝗍𝖺𝗋𝗂𝗈 𝖽𝖾𝗅 𝖻𝗈𝗍',
@@ -554,7 +554,7 @@ global.dfail = (type, m, conn) => {
         unreg: `👤 𝖭𝗈 𝗍𝖾 𝖾𝗇𝖼𝗎𝖾𝗇𝗍𝗋𝖺𝗌 𝗋𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝖽𝗈(𝖺)\n𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝗍𝖾 𝗉𝖺𝗋𝖺 𝗎𝗌𝖺𝗋 𝖾𝗌𝗍𝖺 𝖿𝗎𝗇𝖼𝗂𝗈́𝗇.\n\n*#reg <nombre.edad>*\n\n> *\`Ejemplo:\`*\n> .reg ${user2}.20`,
         restrict: '☁ 𝖤𝗌𝗍𝖺 𝖿𝗎𝗇𝖼𝗂𝗈́𝗇 𝖾𝗌𝗍𝖺 𝖽𝖾𝗌𝖺𝖼𝗍𝗂𝗏𝖺𝖽𝖺 𝗉𝗈𝗋 𝖾𝗅 𝖺𝖼𝗍𝗎𝖺𝗅 𝗈𝗐𝗇𝖾𝗋'
     }[type];
-    if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
+    if (msg) return conn.reply(m.chat, msg, m,).then(_ => m.react('✖️'))
 }
 
 let file = global.__filename(import.meta.url, true)

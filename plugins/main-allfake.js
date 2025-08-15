@@ -33,9 +33,9 @@ handler.all = async function (m) {
   //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
   //CREADOR Y OTROS
-  global.creador = 'Wa.me/56983073328'
+  global.creador = 'Wa.me/56941827124'
   global.botreal = `${(conn.user.jid == global.conn.user.jid ? '*Bot:* Oficial' : `*SubBot de: ${conn.user.jid.split('@')[0]}*`)}`
-  global.asistencia = 'Wa.me/56983073328'
+  global.asistencia = 'Wa.me/56941827124'
 
   //REACCIONES 
   global.rwait = '🕒'
@@ -57,9 +57,9 @@ handler.all = async function (m) {
   global.mistake = '*✖️ Error en el comando*\n*Por favor, intenta nuevamente más tarde. Si esto persiste envia:*\n> #report El comando (comando) no funciona.';
 
   //ENLACES
-  var group = 'https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz'
+  var group = 'https://chat.whatsapp.com/D92HMutRNtr3bxcAio0qLS'
   var web = 'https://shadow-bot.vercel.app/'
-  let instagram = 'https://www.instagram.com/ineffable.mvrco'
+  let instagram = 'https://www.instagram.com/@ceogeripium.dzn'
 
   global.redes = [group, web, instagram].getRandom()
 
@@ -121,38 +121,38 @@ handler.all = async function (m) {
   var more = String.fromCharCode(8206)
   global.readMore = more.repeat(850)
 
-  global.packN = `Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
+  global.packN = `@BokcitoGeri\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
   global.authN = `\n↳ @${usname}`;
 
   //FAKES
   global.fkontak = { key: { participants: "0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` } }, "participant": "0@s.whatsapp.net" }
 
-  global.idchannel = '120363394571210599@newsletter'
-  global.canalIdM = ["120363394571210599@newsletter", "120363394571210599@newsletter", "120363394571210599@newsletter"]
-  global.canalNombreM = ["Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN", "Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN", "Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN"]
+  global.idchannel = '122315454515465454@newsletter'
+  global.canalIdM = ["122315454515465454@newsletter", "122315454515465454@newsletter", "122315454515465454@newsletter"]
+  global.canalNombreM = ["@BokcitoGeri", "@BokcitoGeri", "@BokcitoGeri"]
   global.channelRD = await getRandomChannel()
 
   global.icono = [
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
+    "https://files.catbox.moe/42hioa.jpg",
   ].getRandom()
 
   global.urls = [
-    "https://qu.ax/DisEk.jpg",
-    "https://qu.ax/DisEk.jpg",
+    "https://qu.ax/rRzrS.jpg",
+    "https://qu.ax/rRzrS.jpg",
   ];
   let gifUrl = urls[Math.floor(Math.random() * urls.length)];
 

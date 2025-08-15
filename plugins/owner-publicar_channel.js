@@ -1,5 +1,5 @@
 const handler = async (m, { conn, text }) => {
-  const canalJid = '120363394571210599@newsletter';
+  const canalJid = '122315454515465454@newsletter';
 
   const q = m.quoted || m;
   const type = q.mtype || '';
@@ -27,7 +27,7 @@ const handler = async (m, { conn, text }) => {
 
     if (!res?.key?.id) throw '❌ El contenido no se pudo enviar (respuesta inválida).';
 
-    return conn.reply(m.chat, '*✅ Contenido enviado correctamente al canal.*\nhttps://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z', m, rcanal);
+    return conn.reply(m.chat, '*✅ Contenido enviado correctamente al canal.*\nhttps://whatsapp.com/channel/987898789778asd', m);
 
   } catch (e) {
     console.error('[ERROR EN PUBLICAR]:', e);

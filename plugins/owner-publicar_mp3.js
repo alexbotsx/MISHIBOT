@@ -1,7 +1,7 @@
 import { toAudio } from '../lib/converter.js';
 
 const handler = async (m, { conn, usedPrefix, command }) => {
-  const canalJid = '120363394571210599@newsletter';
+  const canalJid = '122315454515465454@newsletter';
 
   const q = m.quoted ? m.quoted : m;
   const mime = (q || q.msg).mimetype || q.mediaType || '';

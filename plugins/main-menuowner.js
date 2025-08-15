@@ -13,9 +13,9 @@ const handler = async (m, { conn, usedPrefix, text }) => {
     const str = `
 🌐 *\`Menú Owner\`*
 ────────────────────────────
-*🌴 Nombre:* MvrcoSexo
-*☕ Creador:* @𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔
-*📞 Número Creador:* +56983073328
+*🌴 Nombre:* BokcitoGeri
+*☕ Creador:* BokcitoGeri
+*📞 Número Creador:* +56941827124
 \`Lista de Comandos\`
 ╰➤ ׁ${xowner} ${usedPrefix}update
 ╰➤ ׁ${xowner} ${usedPrefix}leavegc

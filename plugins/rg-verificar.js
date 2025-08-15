@@ -43,7 +43,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     }
 
     let sn = createHash('md5').update(m.sender).digest('hex')
-    let regbot = `*Registro* ㅤﾉㅤ *Completo*\nㅤ@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔\n\n`
+    let regbot = `*Registro* ㅤﾉㅤ *Completo*\nㅤBokcitoGeri\n\n`
     regbot += `✧⃝ᓚ⩺ \`Nombre:\` ${name}\n`
     regbot += `✧⃝ᓚ⩺ \`Edad:\` ${age} años\n\n`
     regbot += `✧⃝ᓚ⩺  *Recompensa ࣲ* ׅ  ☕ᩨ  \n\n`
@@ -57,10 +57,10 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
         text: regbot,
         contextInfo: {
             externalAdReply: {
-                title: 'Pᴏʀɴʜᴜʙ: @𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔',
+                title: 'BokcitoGeri',
                 body: club,
                 thumbnailUrl: 'https://files.catbox.moe/nwqdwh.jpg',
-                sourceUrl: 'https://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z',
+                sourceUrl: 'https://whatsapp.com/channel/987898789778asd',
                 mediaType: 1,
                 showAdAttribution: true,
                 renderLargerThumbnail: true
@@ -75,7 +75,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
 🪪 *𝚂𝙴𝚁𝙸𝙴:*
 ⤷ ${sn}`;
 
-    let channelID = '120363384854309225@newsletter';
+    let channelID = '654545465446464466@newsletter';
     await conn.sendMessage(channelID, {
         text: chtxt,
         contextInfo: {
@@ -96,4 +96,4 @@ handler.help = ['reg']
 handler.tags = ['rg']
 handler.command = ['verify', 'verificar', 'reg', 'register', 'registrar']
 
-export default handler@
+export default handler
