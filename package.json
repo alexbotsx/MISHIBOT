@@ -1,5 +1,5 @@
 {
-    "name": "BokcitoGeri",
+    "name": "MISHIBOT",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/BokcitoGeri",
+    "homepage": "https://github.com/KillzN/MISHIBOT",
     "author": {
-        "name": "BokcitoGeri"
+        "name": "MISHIBOT"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/BokcitoGeri"
+        "url": "git+https://github.com/KillzN/MISHIBOT"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/BokcitoGeri/issues"
+        "url": "https://github.com/KillzN/MISHIBOT/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

@@ -10,9 +10,9 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     // VCARD
     let list = [{
-        displayName: "BokcitoGeri",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: BokcitoGeri
-\nitem1.TEL;waid=56941827124:56941827124\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: @ceogeripium.dzn@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/@ceogeripium.dzn\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+        displayName: "MISHIBOT",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: MISHIBOT
+\nitem1.TEL;waid=5491136861351:5491136861351\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: @ceogeripium.dzn@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/@ceogeripium.dzn\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -25,8 +25,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 showAdAttribution: true,
                 title: 'Hello, I am the official creator of MvrcoSex.',
                 body: dev,
-                thumbnailUrl: 'https://files.catbox.moe/42hioa.jpg',
-                sourceUrl: 'https://wa.me/56941827124?text=Hola+quiero+adquirir+bot',
+                thumbnailUrl: 'https://files.catbox.moe/ii137x.jpeg',
+                sourceUrl: 'https://wa.me/5491136861351?text=Hola+quiero+adquirir+bot',
                 mediaType: 1,
                 renderLargerThumbnail: true
             }

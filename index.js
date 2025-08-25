@@ -186,7 +186,7 @@ if (!fs.existsSync(`./${sessions}/creds.json`)) {
       } else {
         do {
 
-          phoneNumber = await question(chalk.bgBlack(chalk.bold.redBright(`Por favor, Ingresa el número de WhatsApp\n${chalk.bold.blueBright("Copia el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.blueBright("Ejemplo: 56941827124")}\n${chalk.bold.magentaBright('---> ')}`)))
+          phoneNumber = await question(chalk.bgBlack(chalk.bold.redBright(`Por favor, Ingresa el número de WhatsApp\n${chalk.bold.blueBright("Copia el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.blueBright("Ejemplo: 5491136861351")}\n${chalk.bold.magentaBright('---> ')}`)))
 
           phoneNumber = phoneNumber.replace(/\D/g, '')
           if (!phoneNumber.startsWith('+')) {
@@ -231,7 +231,7 @@ async function connectionUpdate(update) {
     }
   }
   if (connection == 'open') {
-    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• BokcitoGeri •】⸺⸺⸺⸺❒`))
+    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• MISHIBOT •】⸺⸺⸺⸺❒`))
   }
   let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
   if (connection === 'close') {

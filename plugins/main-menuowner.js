@@ -7,15 +7,15 @@ const handler = async (m, { conn, usedPrefix, text }) => {
 
   try {
     await m.react('👑'); // Reacción al mensaje
-    const imageUrl = 'https://files.catbox.moe/42hioa.jpg'; // URL de la imagen
+    const imageUrl = 'https://files.catbox.moe/ii137x.jpeg'; // URL de la imagen
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0]; // Usuario que ejecuta el comando
 
     const str = `
 🌐 *\`Menú Owner\`*
 ────────────────────────────
-*🌴 Nombre:* BokcitoGeri
-*☕ Creador:* BokcitoGeri
-*📞 Número Creador:* +56941827124
+*🌴 Nombre:* MISHIBOT
+*☕ Creador:* MISHIBOT
+*📞 Número Creador:* +5491136861351
 \`Lista de Comandos\`
 ╰➤ ׁ${xowner} ${usedPrefix}update
 ╰➤ ׁ${xowner} ${usedPrefix}leavegc

@@ -1,23 +1,20 @@
-const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, command, usedPrefix }) => {
-
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
-
+let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
   if (!(isAdmin || isOwner)) {
-    global.dfail('admin', m, conn);
-    throw false;
+  global.dfail('admin', m, conn)
+  throw false
   }
-  const pesan = args.join` `;
-  const oi = `𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙎:* ${pesan}`;
-  let teks = `> *Tʜᴇ Sᴜɴ Is Bʀɪɢʜᴛ Bᴜᴛ Nᴏᴛ As Bʀɪɢʜᴛ As Mᴇ ☀️*\n\n *${oi}\n\n➥ _*@@ceogeripium.dzn:*_\n`;
-  for (const mem of participants) {
-    teks += `*🥷🏼 ⇝* @${mem.id.split('@')[0]}\n`;
+  let pesan = args.join` `
+  let oi = `@Tigreshoy.ff${pesan}`
+  let teks = `𝑨𝑪𝑻𝑰𝑽𝑬𝑵𝑺𝑬 𝑶 𝑪𝑼𝑷𝑶 😸
+${oi}\n\n ── 𝑬𝑻𝑰𝑸𝑼𝑬𝑻𝑨\n`
+  for (let mem of participants) {
+  teks += `▌@${mem.id.split('@')[0]}\n`}
+  teks += `ֶ★𝑴𝒊𝒔𝒉𝒊𝑩𝒐𝒕`
+  conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
   }
-  teks += `*└KɪʟʟBᴏᴛ ⇝@@ceogeripium.dzn*`;
-  conn.sendMessage(m.chat, { text: teks, mentions: participants.map((a) => a.id) });
-};
-handler.help = ['todos *<txt>*'];
-handler.tags = ['gc'];
-handler.command = /^(tagall|t|invocar|marcar|todos|invocación)$/i;
-handler.admin = true;
-handler.group = true;
-export default handler;
+  handler.help = ['tagall <mesaje>','invocar <mesaje>']
+  handler.tags = ['group']
+  handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten|sia)$/i
+  handler.admin = true
+  handler.group = true
+  export default handler
