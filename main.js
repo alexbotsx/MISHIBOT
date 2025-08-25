@@ -17,7 +17,7 @@ import { format } from 'util'
 import P from 'pino'
 import pino from 'pino'
 import Pino from 'pino'
-import { MvrcoJadiBot } from './plugins/jadibot-serbot.js'
+import { MISHIBOTJadiBot } from './plugins/jadibot-serbot.js'
 import { Boom } from '@hapi/boom'
 import { makeWASocket, protoType, serialize } from './lib/simple.js'
 import {Low, JSONFile} from 'lowdb'
@@ -333,7 +333,7 @@ return true;
 
 global.rutaJadiBot = join(__dirname, './JadiBots')
 
-if (global.MvrcoJadibts) {
+if (global.MISHIBOTJadibts) {
 if (!existsSync(global.rutaJadiBot)) {
 mkdirSync(global.rutaJadiBot, { recursive: true }) 
 console.log(chalk.bold.cyan(`La carpeta: ${jadi} se creó correctamente.`))
@@ -348,7 +348,7 @@ for (const gjbts of readRutaJadiBot) {
 const botPath = join(rutaJadiBot, gjbts)
 const readBotPath = readdirSync(botPath)
 if (readBotPath.includes(creds)) {
-MvrcoJadiBot({pathMvrcoJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
+MISHIBOTJadiBot({pathMISHIBOTJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
 }
 }
 }

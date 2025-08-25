@@ -11,7 +11,7 @@ import fs, { readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileS
 import yargs from 'yargs';
 import { spawn } from 'child_process'
 import lodash from 'lodash'
-import { MvrcoJadiBot } from './plugins/serbot-jadibot.js'
+import { MISHIBOTJadiBot } from './plugins/serbot-jadibot.js'
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
 import { tmpdir } from 'os'
@@ -315,7 +315,7 @@ if (global.shadowJadibts) {
       const botPath = join(rutaJadiBot, gjbts)
       const readBotPath = readdirSync(botPath)
       if (readBotPath.includes(creds)) {
-        MvrcoJadiBot({ pathMvrcoJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
+        MISHIBOTJadiBot({ pathMISHIBOTJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
       }
     }
   }

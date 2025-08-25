@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'Hello, I am the official creator of MvrcoSex.',
+                title: 'Hello, I am the official creator of MISHIBOT.',
                 body: dev,
                 thumbnailUrl: 'https://files.catbox.moe/ii137x.jpeg',
                 sourceUrl: 'https://wa.me/5491136861351?text=Hola+quiero+adquirir+bot',
